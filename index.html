@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/app.css">
+    <script src="https://kit.fontawesome.com/1342ed18e3.js" crossorigin="anonymous"></script>
+    <title>Personal Portfolio Webpage</title>
+</head>
+
+<body>
+    <div class="over-lay"></div>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="toggle-wrapper">
+                <input type="checkbox" class="btn-toggle">
+                <div></div>
+            </div>
+
+            <h3><i class="fas fa-user-ninja"></i><a href="https://twitter.com/iem_joviks">@iem_joviks</a></h3>
+
+            <div class="navbar-wrapper">
+                <nav id="navbar">
+                    <ul class="nav">
+                        <li class="nav-list"><a href="#about_me" class="nav-link">About Me</a></li>
+                        <li class="nav-list mt-2"><a class="nav-link" href="#project">Project</a></li>
+
+                        <li class="nav-list mt-2"><a class="nav-link" href="#contact_me">Contact Me</a></li>
+                    </ul>
+                </nav>
+                <div class="navbar-logo">
+                    <a href="https://twitter.com/iem_joviks"><i class="fab fa-twitter"></i></a></a>
+                    <a href="https://www.linkedin.com/in/emmanuel-j-tochukwu-671447125/"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/joviksdev/"><i class="fab fa-github"></i></a>
+
+                </div>
+            </div>
+    </header>
+    </div>
+
+    <main>
+        <section id="welcome-section">
+            <div class="container">
+                <img class="my-photo" src="./images/my-photo.jpg" alt="my-photo">
+                <div id="about_me">
+                    <div class="about">
+                        <h3>Hello</h3>
+                        <h2>I Am Emmanuel Tochukwu</h2>
+                        <h3><span class="web">Web</span> Developer</h3>
+                    </div>
+                    <div>
+                        I am a Passionate JavaScript Developer, Front-End Web Developer, wise and humble with inspiring
+                        character.
+                    </div>
+                    <a href="#" class="btn btn-cv mt-1">Download CV</a>
+                </div>
+            </div>
+        </section>
+        <section id="project" class="mt-2">
+            <div class="container">
+                <h3 class="project-heading mb ">Projects</h3>
+                <div>
+                    <div class="project-container">
+                        <img class="project-image" src="./images/budget-app.jpg" alt="budget-app">
+                        <a href="#" class="btn project-title">Budget Application</a>
+                    </div>
+                    <div class="project-container">
+                        <img class="project-image" src="./images/store.jpg" alt="budget-app">
+                        <a href="#" class="btn project-title">Simple Store</a>
+                    </div>
+                    <div class="project-container">
+                        <img class="project-image" src="./images/card.jpg" alt="budget-app">
+                        <a href="#" class="btn project-title">Card Creator App</a>
+                    </div>
+                </div>
+                <p class="mt-1">For more, check my <a id="profile-link" href="https://github.com/joviksdev">GitHub
+                        Page</a></p>
+            </div>
+        </section>
+
+        <section class="mt-2" id="contact_me">
+            <div class="container">
+                <div class="contact-me-header">
+                    <p><small>Have a project in mind?</small></p>
+                    <h3 class="mb-1">Come and say hi or just drop a line</h3>
+                </div>
+                <div class="contact-detail-wrapper">
+                    <div class="contact-detail">
+                        <div><i class="fas fa-envelope"></i>
+                            <p>Email</p>
+                        </div>
+                        <p class="mb-1">toch.emeo@gmail.com</p>
+
+                        <div><i class="fab fa-twitter"></i>
+                            <p>Twitter</p>
+                        </div>
+                        <p class="mb-1">@iem_joviks</p>
+                        <div><i class="fab fa-github"></i></i>
+                            <p>GitHub</p>
+                        </div>
+                        <p class="mb-1">Joviksdev</p>
+                        <div><i class="fas fa-map-marker-alt"></i>
+                            <p>Address</p>
+                        </div>
+                        <p>Lagos, Nigeria</p>
+                    </div>
+
+                    <form class="contact-form">
+                        <p class="form-text">Send me a message</p>
+                        <div class="form-group">
+                            <label for="user-name">Your Name</label>
+                            <input type="text" name="name" id="user-name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-email">Your Name</label>
+                            <input type="email" name="email" id="user-email" placeholder="Enter you email address"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-message">Your Message</label>
+                            <textarea name="name" cols="3" id="user-message"
+                                placeholder="Hi, I think we need a design system for out products at Company X. How  soon can you hop on to discuss this?"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="mt-1 btn-submit"><i class="fas fa-paper-plane"></i></button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p><span class="heart">&hearts; </span>Emmanuel Tochukwu &copy;</p>
+
+            <div>
+                <a href="https://twitter.com/iem_joviks"><i class="fab fa-twitter"></i></a></a>
+                <a href="https://www.linkedin.com/in/emmanuel-j-tochukwu-671447125/"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/joviksdev/"><i class="fab fa-github"></i></a>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="./script/app.js"></script>
+</body>
+
+</html>
